@@ -45,7 +45,6 @@
 		BAE65AFE1C2848FF00EEBDE1 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AD21C2848FF00EEBDE1 /* HRColorPickerView.m */; };
 		BAE65AFF1C2848FF00EEBDE1 /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AD41C2848FF00EEBDE1 /* HRHSVColorUtil.m */; };
 		BAE65B001C2848FF00EEBDE1 /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AD61C2848FF00EEBDE1 /* UIImage+CoreGraphics.m */; };
-		BAE65B101C2848FF00EEBDE1 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AF41C2848FF00EEBDE1 /* TPCircularBuffer.c */; };
 		E419F54C19CA1B6500ABBACE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E419F54B19CA1B6500ABBACE /* libz.dylib */; };
 		E4A04D0618F840A7007E265B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A04D0518F840A7007E265B /* GLKit.framework */; };
 		E4B5661419C5F45600E1C3B5 /* Accel_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B5661319C5F45600E1C3B5 /* Accel_Tests.m */; };
@@ -140,8 +139,6 @@
 		BAE65AD41C2848FF00EEBDE1 /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
 		BAE65AD51C2848FF00EEBDE1 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
 		BAE65AD61C2848FF00EEBDE1 /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
-		BAE65AF41C2848FF00EEBDE1 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
-		BAE65AF51C2848FF00EEBDE1 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
 		E419F54B19CA1B6500ABBACE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		E4A04D0518F840A7007E265B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		E4B5660F19C5F45600E1C3B5 /* GLPlotExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLPlotExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -346,7 +343,6 @@
 			isa = PBXGroup;
 			children = (
 				BAE65AC31C2848FF00EEBDE1 /* Color-Picker-for-iOS */,
-				BAE65AF01C2848FF00EEBDE1 /* TPCircularBuffer */,
 			);
 			name = Submodules;
 			path = ../Submodules;
@@ -381,15 +377,6 @@
 				BAE65AD61C2848FF00EEBDE1 /* UIImage+CoreGraphics.m */,
 			);
 			path = ColorPicker;
-			sourceTree = "<group>";
-		};
-		BAE65AF01C2848FF00EEBDE1 /* TPCircularBuffer */ = {
-			isa = PBXGroup;
-			children = (
-				BAE65AF41C2848FF00EEBDE1 /* TPCircularBuffer.c */,
-				BAE65AF51C2848FF00EEBDE1 /* TPCircularBuffer.h */,
-			);
-			path = TPCircularBuffer;
 			sourceTree = "<group>";
 		};
 		E4B5661019C5F45600E1C3B5 /* Accel Tests */ = {
@@ -580,7 +567,6 @@
 				BAE65AAF1C2848E100EEBDE1 /* GLPlot.mm in Sources */,
 				BAE65ABB1C2848E100EEBDE1 /* GLGraphViewSelection.m in Sources */,
 				BAE65ABF1C2848E100EEBDE1 /* GLGraphSelectionEditViewController.m in Sources */,
-				BAE65B101C2848FF00EEBDE1 /* TPCircularBuffer.c in Sources */,
 				BAE65AC01C2848E100EEBDE1 /* UITextFieldCell.m in Sources */,
 				BAE65AFB1C2848FF00EEBDE1 /* HRColorCursor.m in Sources */,
 				BAE65AFA1C2848FF00EEBDE1 /* HRBrightnessSlider.m in Sources */,

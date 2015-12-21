@@ -1,6 +1,3 @@
-[submodule "Submodules/TPCircularBuffer"]
-	path = Submodules/TPCircularBuffer
-	url = https://github.com/michaeltyson/TPCircularBuffer.git
 [submodule "Submodules/Color-Picker-for-iOS"]
 	path = Submodules/Color-Picker-for-iOS
 	url = https://github.com/hayashi311/Color-Picker-for-iOS.git
