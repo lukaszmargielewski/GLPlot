@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AC11DF2726D807366098D25D9858C3282B8ABE0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A92F984637B9EAE95E95252EC6CBD8DE42DB61D1" : 0,
+    "AC11DF2726D807366098D25D9858C3282B8ABE0E" : 0,
+    "0978FDA47C13397F93AAD48668F4ACFD10C8E1E7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AF53F5C9-A0D9-44C9-8118-0E69AE9E1BFD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A92F984637B9EAE95E95252EC6CBD8DE42DB61D1" : "Accelerometer-bluetooth-and-ANN\/Submodules\/TPCircularBuffer\/",
+    "AC11DF2726D807366098D25D9858C3282B8ABE0E" : "Accelerometer-bluetooth-and-ANN\/",
+    "0978FDA47C13397F93AAD48668F4ACFD10C8E1E7" : "Accelerometer-bluetooth-and-ANN\/Submodules\/Color-Picker-for-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Accel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Accel.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hayashi311\/Color-Picker-for-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0978FDA47C13397F93AAD48668F4ACFD10C8E1E7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaeltyson\/TPCircularBuffer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A92F984637B9EAE95E95252EC6CBD8DE42DB61D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lukaszmargielewski\/Accelerometer-bluetooth-and-ANN.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AC11DF2726D807366098D25D9858C3282B8ABE0E"
+    }
+  ]
+}
