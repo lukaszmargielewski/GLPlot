@@ -20,8 +20,7 @@
 
     NSTimeInterval _start_time;
     NSTimeInterval _dt;
-    
-    NSTimer *_dummyTimer;
+
     BOOL _dummy;
     
 }
@@ -85,16 +84,10 @@
 -(void)dummy:(UIBarButtonItem *)sender{
     
     _dummy = !_dummy;
-    //return;
     
-    if (_dummyTimer) {
-        [_dummyTimer invalidate];
-        _dummyTimer = nil;
-        
-    }else{
+    if (_dummy){
         
         _start_time = [[NSDate date] timeIntervalSince1970];
-        _dummyTimer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(generateDummyEntry:) userInfo:nil repeats:YES];
     }
     
 }
@@ -107,7 +100,6 @@
     
 }
 -(void)generateDummyEntry:(NSTimer *)timer{
-
   
     double y = sin(_dt);//(double)(arc4random() % 255) / 255.0;
     GLVector2D vmagnitude  = GLVector2DMake(_dt, y);
