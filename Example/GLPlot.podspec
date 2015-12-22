@@ -38,8 +38,10 @@ s.platform     = :ios, '7.0'
 s.requires_arc = true
 s.source_files = 'GLPlot', 'GLPlot/**/*.{h,m,mm,fsh,vsh}'
 s.framework    = 'GLKit' , 'OpenGLES'
-"xcconfig": {
-"CLANG_CXX_LIBRARY": "libc++"
-},
+s.library = 'c++'
+s.xcconfig = {
+'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
+'CLANG_CXX_LIBRARY' => 'libc++'
+}
 
 end
