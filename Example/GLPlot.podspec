@@ -34,10 +34,11 @@ s.author           = { "Lukasz Margielewski" => "lukasz.margielewski@gmail.com" 
 s.source           = { :git => "https://github.com/lukaszmargielewski/GLPlot.git", :tag => "#{s.version}" }
 # s.social_media_url = 'https://twitter.com/lukmarg'
 
-s.platform     = :ios, '7.0'
-s.requires_arc = true
-s.source_files = 'GLPlot', 'GLPlot/**/*.{h,m,mm,fsh,vsh}'
-s.framework    = 'GLKit' , 'OpenGLES'
+s.platform      = :ios, '7.0'
+s.requires_arc  = true
+s.source_files  = 'GLPlot', 'GLPlot/**/*.{h,m,mm}'
+s.resource      = 'GLPlot/**/*.{fsh,vsh}'
+s.framework     = 'GLKit' , 'OpenGLES'
 s.library = 'c++'
 s.xcconfig = {
 'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
