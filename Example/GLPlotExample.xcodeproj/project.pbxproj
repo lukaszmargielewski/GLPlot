@@ -13,7 +13,6 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		B29E6A4C130FE2B9009A7A20 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29E6A4B130FE2B9009A7A20 /* QuartzCore.framework */; };
 		B29E6B8D131092C1009A7A20 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29E6B8C131092C1009A7A20 /* OpenGLES.framework */; };
-		B2F5D451133E261300340331 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F5D450133E261300340331 /* GameKit.framework */; };
 		BAE65A741C28452B00EEBDE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE65A731C28452B00EEBDE1 /* Images.xcassets */; };
 		BAE65A761C28454500EEBDE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE65A751C28454500EEBDE1 /* LaunchScreen.storyboard */; };
 		BAE65AAD1C2848E100EEBDE1 /* GLGraph.mm in Sources */ = {isa = PBXBuildFile; fileRef = BAE65A851C2848E100EEBDE1 /* GLGraph.mm */; };
@@ -40,13 +39,7 @@
 		E4A04D0618F840A7007E265B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A04D0518F840A7007E265B /* GLKit.framework */; };
 		E4B5661419C5F45600E1C3B5 /* Accel_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B5661319C5F45600E1C3B5 /* Accel_Tests.m */; };
 		E4C6308F18F70EFD000654CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C6308E18F70EFD000654CA /* AppDelegate.m */; };
-		E4C630BE18F72832000654CA /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C630BD18F72832000654CA /* CoreMotion.framework */; };
 		E4D00E9819A9D72400B2EB35 /* GLPlotExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D00E9719A9D72400B2EB35 /* GLPlotExampleViewController.m */; };
-		E4F2505518F73AAF00507A71 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2505418F73AAF00507A71 /* AVFoundation.framework */; };
-		E4F2505718F73AD400507A71 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2505618F73AD400507A71 /* AudioToolbox.framework */; };
-		E4F2505B18F73DFE00507A71 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2505A18F73DFE00507A71 /* MapKit.framework */; };
-		E4F2505D18F73E9500507A71 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2505C18F73E9500507A71 /* CoreLocation.framework */; };
-		E4FE33C319D08C7D006EF4F3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FE33C219D08C7D006EF4F3 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +63,6 @@
 		B271450814CC70E200B602EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B29E6A4B130FE2B9009A7A20 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B29E6B8C131092C1009A7A20 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		B2F5D450133E261300340331 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		BAD414341C2938280007A66B /* GLPlot.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLPlot.podspec; sourceTree = "<group>"; };
 		BAE65A731C28452B00EEBDE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GLPlotExample/Images.xcassets; sourceTree = "<group>"; };
 		BAE65A751C28454500EEBDE1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,14 +113,8 @@
 		E4BE5ECE19AA17EA00B93CC2 /* Todo_Fixme.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Todo_Fixme.sh; sourceTree = "<group>"; };
 		E4C6308D18F70EFD000654CA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4C6308E18F70EFD000654CA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4C630BD18F72832000654CA /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		E4D00E9619A9D72400B2EB35 /* GLPlotExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPlotExampleViewController.h; sourceTree = "<group>"; };
 		E4D00E9719A9D72400B2EB35 /* GLPlotExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPlotExampleViewController.m; sourceTree = "<group>"; };
-		E4F2505418F73AAF00507A71 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		E4F2505618F73AD400507A71 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		E4F2505A18F73DFE00507A71 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		E4F2505C18F73E9500507A71 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		E4FE33C219D08C7D006EF4F3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,15 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4FE33C319D08C7D006EF4F3 /* Accelerate.framework in Frameworks */,
 				E419F54C19CA1B6500ABBACE /* libz.dylib in Frameworks */,
 				E4A04D0618F840A7007E265B /* GLKit.framework in Frameworks */,
-				E4F2505D18F73E9500507A71 /* CoreLocation.framework in Frameworks */,
-				E4F2505B18F73DFE00507A71 /* MapKit.framework in Frameworks */,
-				E4F2505718F73AD400507A71 /* AudioToolbox.framework in Frameworks */,
-				E4F2505518F73AAF00507A71 /* AVFoundation.framework in Frameworks */,
-				E4C630BE18F72832000654CA /* CoreMotion.framework in Frameworks */,
-				B2F5D451133E261300340331 /* GameKit.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -206,15 +185,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E4FE33C219D08C7D006EF4F3 /* Accelerate.framework */,
 				E419F54B19CA1B6500ABBACE /* libz.dylib */,
 				E4A04D0518F840A7007E265B /* GLKit.framework */,
-				E4F2505C18F73E9500507A71 /* CoreLocation.framework */,
-				E4F2505A18F73DFE00507A71 /* MapKit.framework */,
-				E4F2505618F73AD400507A71 /* AudioToolbox.framework */,
-				E4F2505418F73AAF00507A71 /* AVFoundation.framework */,
-				E4C630BD18F72832000654CA /* CoreMotion.framework */,
-				B2F5D450133E261300340331 /* GameKit.framework */,
 				B29E6B8C131092C1009A7A20 /* OpenGLES.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -398,7 +370,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = Q7NC4H2UHH;
@@ -590,6 +562,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
