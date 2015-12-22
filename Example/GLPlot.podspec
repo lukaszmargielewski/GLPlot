@@ -36,6 +36,6 @@ s.source           = { :git => "https://github.com/lukaszmargielewski/GLPlot.git
 
 s.platform     = :ios, '7.0'
 s.requires_arc = true
-s.source_files = 'GLPlot/*'
+s.source_files = 'GLPlot', 'GLPlot/**/*.{h,m,fsh,vsh}'
 
 end
