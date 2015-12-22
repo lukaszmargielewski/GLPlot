@@ -416,27 +416,10 @@
 
    if (indexPath.section == GLPlotEditingSectionMain || indexPath.row ==GLPlotEditingSectionMainItemColor) {
        
-        ColorPickerViewController *cpvc = [[ColorPickerViewController alloc] init];
-       cpvc.color = _plotDictionary[@"color"];
-            cpvc.delegate = self;
-            [self.navigationController pushViewController:cpvc animated:YES];
+       // TODO: Add color edit...
             
-        }
+   }
     
 }
 
-#pragma mark - Color picker:
--(void)ColorPickerViewController:(ColorPickerViewController *)controller didFinishWithColor:(UIColor *)color{
-
-    _plotDictionary[@"color"] = color;
-    
-    [self.tableView reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:GLPlotEditingSectionMainItemColor inSection:GLPlotEditingSectionMain]] withRowAnimation:UITableViewRowAnimationNone];
-    
-    [self.navigationController popToViewController:self animated:YES];
-    
-}
--(void)ColorPickerViewControllerDidCancel:(ColorPickerViewController *)controller{
-
-    [self.navigationController popToViewController:self animated:YES];
-}
 @end

@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ColorPickerViewController.h"
 
 @class GLGraphSelectionEditViewController;
 @class GLGraphViewSelection;
@@ -19,7 +18,7 @@
 
 @end
 
-@interface GLGraphSelectionEditViewController : UITableViewController<UITextFieldDelegate, ColorPickerViewControllerDelegate>
+@interface GLGraphSelectionEditViewController : UITableViewController<UITextFieldDelegate>
 
 @property (nonatomic, assign) id<GLGraphSelectionEditViewControllerDelegate>delegate;
 @property (nonatomic, copy) GLGraphViewSelection *selection;

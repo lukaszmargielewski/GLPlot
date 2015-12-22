@@ -32,19 +32,10 @@
 		BAE65ABA1C2848E100EEBDE1 /* GLGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65A9D1C2848E100EEBDE1 /* GLGraphViewController.m */; };
 		BAE65ABB1C2848E100EEBDE1 /* GLGraphViewSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65A9F1C2848E100EEBDE1 /* GLGraphViewSelection.m */; };
 		BAE65ABC1C2848E100EEBDE1 /* GLGraphViewSelectionSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AA11C2848E100EEBDE1 /* GLGraphViewSelectionSettingsViewController.m */; };
-		BAE65ABD1C2848E100EEBDE1 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AA41C2848E100EEBDE1 /* ColorPickerViewController.m */; };
 		BAE65ABE1C2848E100EEBDE1 /* GLGraphPlotEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AA61C2848E100EEBDE1 /* GLGraphPlotEditViewController.m */; };
 		BAE65ABF1C2848E100EEBDE1 /* GLGraphSelectionEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AA81C2848E100EEBDE1 /* GLGraphSelectionEditViewController.m */; };
 		BAE65AC01C2848E100EEBDE1 /* UITextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AAA1C2848E100EEBDE1 /* UITextFieldCell.m */; };
 		BAE65AC11C2848E100EEBDE1 /* UITextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AAC1C2848E100EEBDE1 /* UITextViewCell.m */; };
-		BAE65AF91C2848FF00EEBDE1 /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AC81C2848FF00EEBDE1 /* HRBrightnessCursor.m */; };
-		BAE65AFA1C2848FF00EEBDE1 /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65ACA1C2848FF00EEBDE1 /* HRBrightnessSlider.m */; };
-		BAE65AFB1C2848FF00EEBDE1 /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65ACC1C2848FF00EEBDE1 /* HRColorCursor.m */; };
-		BAE65AFC1C2848FF00EEBDE1 /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65ACE1C2848FF00EEBDE1 /* HRColorInfoView.m */; };
-		BAE65AFD1C2848FF00EEBDE1 /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AD01C2848FF00EEBDE1 /* HRColorMapView.m */; };
-		BAE65AFE1C2848FF00EEBDE1 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AD21C2848FF00EEBDE1 /* HRColorPickerView.m */; };
-		BAE65AFF1C2848FF00EEBDE1 /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AD41C2848FF00EEBDE1 /* HRHSVColorUtil.m */; };
-		BAE65B001C2848FF00EEBDE1 /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE65AD61C2848FF00EEBDE1 /* UIImage+CoreGraphics.m */; };
 		E419F54C19CA1B6500ABBACE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E419F54B19CA1B6500ABBACE /* libz.dylib */; };
 		E4A04D0618F840A7007E265B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A04D0518F840A7007E265B /* GLKit.framework */; };
 		E4B5661419C5F45600E1C3B5 /* Accel_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B5661319C5F45600E1C3B5 /* Accel_Tests.m */; };
@@ -80,6 +71,7 @@
 		B29E6A4B130FE2B9009A7A20 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B29E6B8C131092C1009A7A20 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		B2F5D450133E261300340331 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		BAD414341C2938280007A66B /* GLPlot.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLPlot.podspec; sourceTree = "<group>"; };
 		BAE65A731C28452B00EEBDE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GLPlotExample/Images.xcassets; sourceTree = "<group>"; };
 		BAE65A751C28454500EEBDE1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAE65A821C2848E100EEBDE1 /* ConstantsAndMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantsAndMacros.h; sourceTree = "<group>"; };
@@ -113,8 +105,6 @@
 		BAE65A9F1C2848E100EEBDE1 /* GLGraphViewSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLGraphViewSelection.m; sourceTree = "<group>"; };
 		BAE65AA01C2848E100EEBDE1 /* GLGraphViewSelectionSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGraphViewSelectionSettingsViewController.h; sourceTree = "<group>"; };
 		BAE65AA11C2848E100EEBDE1 /* GLGraphViewSelectionSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLGraphViewSelectionSettingsViewController.m; sourceTree = "<group>"; };
-		BAE65AA31C2848E100EEBDE1 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
-		BAE65AA41C2848E100EEBDE1 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
 		BAE65AA51C2848E100EEBDE1 /* GLGraphPlotEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGraphPlotEditViewController.h; sourceTree = "<group>"; };
 		BAE65AA61C2848E100EEBDE1 /* GLGraphPlotEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLGraphPlotEditViewController.m; sourceTree = "<group>"; };
 		BAE65AA71C2848E100EEBDE1 /* GLGraphSelectionEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGraphSelectionEditViewController.h; sourceTree = "<group>"; };
@@ -123,22 +113,6 @@
 		BAE65AAA1C2848E100EEBDE1 /* UITextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldCell.m; sourceTree = "<group>"; };
 		BAE65AAB1C2848E100EEBDE1 /* UITextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewCell.h; sourceTree = "<group>"; };
 		BAE65AAC1C2848E100EEBDE1 /* UITextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewCell.m; sourceTree = "<group>"; };
-		BAE65AC71C2848FF00EEBDE1 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
-		BAE65AC81C2848FF00EEBDE1 /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
-		BAE65AC91C2848FF00EEBDE1 /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
-		BAE65ACA1C2848FF00EEBDE1 /* HRBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessSlider.m; sourceTree = "<group>"; };
-		BAE65ACB1C2848FF00EEBDE1 /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
-		BAE65ACC1C2848FF00EEBDE1 /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
-		BAE65ACD1C2848FF00EEBDE1 /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
-		BAE65ACE1C2848FF00EEBDE1 /* HRColorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorInfoView.m; sourceTree = "<group>"; };
-		BAE65ACF1C2848FF00EEBDE1 /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
-		BAE65AD01C2848FF00EEBDE1 /* HRColorMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorMapView.m; sourceTree = "<group>"; };
-		BAE65AD11C2848FF00EEBDE1 /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
-		BAE65AD21C2848FF00EEBDE1 /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
-		BAE65AD31C2848FF00EEBDE1 /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
-		BAE65AD41C2848FF00EEBDE1 /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
-		BAE65AD51C2848FF00EEBDE1 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
-		BAE65AD61C2848FF00EEBDE1 /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
 		E419F54B19CA1B6500ABBACE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		E4A04D0518F840A7007E265B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		E4B5660F19C5F45600E1C3B5 /* GLPlotExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLPlotExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,7 +175,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				BAE65AC21C2848FF00EEBDE1 /* Submodules */,
+				BAD414341C2938280007A66B /* GLPlot.podspec */,
 				BAE65A801C2848E100EEBDE1 /* GLPlot */,
 				BAE65A751C28454500EEBDE1 /* LaunchScreen.storyboard */,
 				BAE65A731C28452B00EEBDE1 /* Images.xcassets */,
@@ -325,8 +299,6 @@
 		BAE65AA21C2848E100EEBDE1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				BAE65AA31C2848E100EEBDE1 /* ColorPickerViewController.h */,
-				BAE65AA41C2848E100EEBDE1 /* ColorPickerViewController.m */,
 				BAE65AA51C2848E100EEBDE1 /* GLGraphPlotEditViewController.h */,
 				BAE65AA61C2848E100EEBDE1 /* GLGraphPlotEditViewController.m */,
 				BAE65AA71C2848E100EEBDE1 /* GLGraphSelectionEditViewController.h */,
@@ -337,46 +309,6 @@
 				BAE65AAC1C2848E100EEBDE1 /* UITextViewCell.m */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		BAE65AC21C2848FF00EEBDE1 /* Submodules */ = {
-			isa = PBXGroup;
-			children = (
-				BAE65AC31C2848FF00EEBDE1 /* Color-Picker-for-iOS */,
-			);
-			name = Submodules;
-			path = ../Submodules;
-			sourceTree = "<group>";
-		};
-		BAE65AC31C2848FF00EEBDE1 /* Color-Picker-for-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				BAE65AC61C2848FF00EEBDE1 /* ColorPicker */,
-			);
-			path = "Color-Picker-for-iOS";
-			sourceTree = "<group>";
-		};
-		BAE65AC61C2848FF00EEBDE1 /* ColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				BAE65AC71C2848FF00EEBDE1 /* HRBrightnessCursor.h */,
-				BAE65AC81C2848FF00EEBDE1 /* HRBrightnessCursor.m */,
-				BAE65AC91C2848FF00EEBDE1 /* HRBrightnessSlider.h */,
-				BAE65ACA1C2848FF00EEBDE1 /* HRBrightnessSlider.m */,
-				BAE65ACB1C2848FF00EEBDE1 /* HRColorCursor.h */,
-				BAE65ACC1C2848FF00EEBDE1 /* HRColorCursor.m */,
-				BAE65ACD1C2848FF00EEBDE1 /* HRColorInfoView.h */,
-				BAE65ACE1C2848FF00EEBDE1 /* HRColorInfoView.m */,
-				BAE65ACF1C2848FF00EEBDE1 /* HRColorMapView.h */,
-				BAE65AD01C2848FF00EEBDE1 /* HRColorMapView.m */,
-				BAE65AD11C2848FF00EEBDE1 /* HRColorPickerView.h */,
-				BAE65AD21C2848FF00EEBDE1 /* HRColorPickerView.m */,
-				BAE65AD31C2848FF00EEBDE1 /* HRHSVColorUtil.h */,
-				BAE65AD41C2848FF00EEBDE1 /* HRHSVColorUtil.m */,
-				BAE65AD51C2848FF00EEBDE1 /* UIImage+CoreGraphics.h */,
-				BAE65AD61C2848FF00EEBDE1 /* UIImage+CoreGraphics.m */,
-			);
-			path = ColorPicker;
 			sourceTree = "<group>";
 		};
 		E4B5661019C5F45600E1C3B5 /* Accel Tests */ = {
@@ -563,25 +495,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAE65AB11C2848E100EEBDE1 /* GLSegment.mm in Sources */,
-				BAE65AFF1C2848FF00EEBDE1 /* HRHSVColorUtil.m in Sources */,
 				BAE65AAF1C2848E100EEBDE1 /* GLPlot.mm in Sources */,
 				BAE65ABB1C2848E100EEBDE1 /* GLGraphViewSelection.m in Sources */,
 				BAE65ABF1C2848E100EEBDE1 /* GLGraphSelectionEditViewController.m in Sources */,
 				BAE65AC01C2848E100EEBDE1 /* UITextFieldCell.m in Sources */,
-				BAE65AFB1C2848FF00EEBDE1 /* HRColorCursor.m in Sources */,
-				BAE65AFA1C2848FF00EEBDE1 /* HRBrightnessSlider.m in Sources */,
 				BAE65ABE1C2848E100EEBDE1 /* GLGraphPlotEditViewController.m in Sources */,
-				BAE65AFC1C2848FF00EEBDE1 /* HRColorInfoView.m in Sources */,
 				BAE65AB01C2848E100EEBDE1 /* GLProgram.m in Sources */,
-				BAE65AFD1C2848FF00EEBDE1 /* HRColorMapView.m in Sources */,
 				BAE65AAE1C2848E100EEBDE1 /* GLNode.m in Sources */,
 				BAE65AC11C2848E100EEBDE1 /* UITextViewCell.m in Sources */,
-				BAE65ABD1C2848E100EEBDE1 /* ColorPickerViewController.m in Sources */,
 				BAE65ABA1C2848E100EEBDE1 /* GLGraphViewController.m in Sources */,
-				BAE65AF91C2848FF00EEBDE1 /* HRBrightnessCursor.m in Sources */,
-				BAE65AFE1C2848FF00EEBDE1 /* HRColorPickerView.m in Sources */,
 				E4C6308F18F70EFD000654CA /* AppDelegate.m in Sources */,
-				BAE65B001C2848FF00EEBDE1 /* UIImage+CoreGraphics.m in Sources */,
 				BAE65ABC1C2848E100EEBDE1 /* GLGraphViewSelectionSettingsViewController.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				BAE65AB21C2848E100EEBDE1 /* GLSprite.m in Sources */,

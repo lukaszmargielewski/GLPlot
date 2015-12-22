@@ -1,14 +1,17 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D3CDA32A187C31EEA42B68FD03257CB452CD1F40",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "A92F984637B9EAE95E95252EC6CBD8DE42DB61D1" : 0,
+    "D3CDA32A187C31EEA42B68FD03257CB452CD1F40" : 0,
     "0978FDA47C13397F93AAD48668F4ACFD10C8E1E7" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "330EB7B0-310D-4595-AC72-292EC6FEF5E6",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "A92F984637B9EAE95E95252EC6CBD8DE42DB61D1" : "GLPlot\/Submodules\/TPCircularBuffer\/",
+    "D3CDA32A187C31EEA42B68FD03257CB452CD1F40" : "GLPlot\/",
     "0978FDA47C13397F93AAD48668F4ACFD10C8E1E7" : "GLPlot\/Submodules\/Color-Picker-for-iOS\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "GLPlotExample",
@@ -24,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaeltyson\/TPCircularBuffer.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A92F984637B9EAE95E95252EC6CBD8DE42DB61D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lukaszmargielewski\/GLPlot.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3CDA32A187C31EEA42B68FD03257CB452CD1F40"
     }
   ]
 }

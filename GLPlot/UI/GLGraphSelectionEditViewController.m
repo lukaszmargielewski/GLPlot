@@ -278,10 +278,7 @@
         case kSectionColor:
         {
             
-            ColorPickerViewController *cpvc = [[ColorPickerViewController alloc] init];
-            cpvc.color = _selection.color;
-            cpvc.delegate = self;
-            [self.navigationController pushViewController:cpvc animated:YES];
+            // TODO: Add color edit...
             
         }
             break;
@@ -290,17 +287,5 @@
             break;
     }
 }
--(void)ColorPickerViewController:(ColorPickerViewController *)controller didFinishWithColor:(UIColor *)color{
 
-    _selection.color = color;
-    
-    [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:kSectionColor] withRowAnimation:UITableViewRowAnimationNone];
-    
-    [self.navigationController popToViewController:self animated:YES];
-    
-}
--(void)ColorPickerViewControllerDidCancel:(ColorPickerViewController *)controller{
-
-    [self.navigationController popToViewController:self animated:YES];
-}
 @end

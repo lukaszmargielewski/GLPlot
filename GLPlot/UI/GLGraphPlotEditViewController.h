@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ColorPickerViewController.h"
 #import "GLPlot.h"
 
 typedef enum GLPlotEditingSection{
@@ -55,7 +54,7 @@ typedef enum GLPlotEditingSectionReadOnlyItems{
 
 @end
 
-@interface GLGraphPlotEditViewController : UITableViewController<UITextFieldDelegate, UITextViewDelegate, ColorPickerViewControllerDelegate>
+@interface GLGraphPlotEditViewController : UITableViewController<UITextFieldDelegate, UITextViewDelegate>
 
 @property (nonatomic, assign) id<GLGraphPlotEditViewControllerDelegate>delegate;
 @property (nonatomic, strong) GLPlot *plot;
